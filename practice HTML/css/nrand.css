@@ -1,0 +1,46 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+.navbar{
+   
+    height: 75px;
+    width: 100%;
+ 
+    display: flex;
+    gap: 5px;
+    background-color: rgb(247, 255, 224);
+}
+.logblock{
+    height: 80px;
+    width: 300px;
+    display: flex;
+  
+    align-items: center;
+    
+}
+ 
+.menublock{
+    flex: 1;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   font-size: large;
+}
+
+.logblock{
+    height: 75px;
+    width: 180px;
+}
+.search-box{
+    width: 250px;
+}

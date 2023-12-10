@@ -1,0 +1,31 @@
+nav{
+    border: 2px solid black;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+ 
+@media screen and (min-width:0px) and (max-width:400px) {
+    nav{
+        background-color:orange;
+    }
+    
+} 
+   /*tablet display */
+   @media screen and (min-width:401px) and (max-width:600px){
+    nav{
+        background-color:deeppink;
+    }
+    
+   }
+
+    @media screen and (min-width:601px) and (max-width:700px){
+        nav{
+            background-color: brown;
+        }
+        
+    }
